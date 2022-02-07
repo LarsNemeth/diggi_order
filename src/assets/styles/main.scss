@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.main-component {
+  display: flex;
+}
+
+@import './header.scss';
+@import './open-order.scss';
+@import './order-form.scss';

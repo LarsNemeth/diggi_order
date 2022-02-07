@@ -1,0 +1,39 @@
+.open-orders-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items-container {
+  margin-top: 20px;
+  padding: 33.33px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 150px;
+  background-color: #fdfdfd;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px grey;
+
+  h3 {
+    padding: 5px;
+  }
+  h5 {
+    padding: 5px;
+  }
+  h6 {
+    padding: 5px;
+  }
+}
+
+.open-orders-h1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  span {
+    color: orange;
+  }
+}

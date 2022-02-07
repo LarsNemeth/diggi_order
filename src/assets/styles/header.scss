@@ -1,0 +1,23 @@
+.open-order-container {
+  margin: 30px auto;
+  width: 375px;
+  height: 812px;
+  background-color: #f3f3f3;
+  border-radius: 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 33.33px;
+  span {
+    color: orange;
+  }
+}
+
+.user-image {
+  img {
+    width: 50px;
+    border-radius: 50%;
+  }
+}
